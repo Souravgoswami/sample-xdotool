@@ -177,7 +177,7 @@ Usage:
          
 **Get window name along with the cursor position:**
 
-   `print XdoTool.getwinmousexy`
+   `puts XdoTool.getwinmousexy`
  
  
  Constants:
