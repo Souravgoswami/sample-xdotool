@@ -173,6 +173,6 @@ module XdoTool
 		alias setmousexy mousemove
 		alias press keypress
 		alias resizewindow windowsize
-		alias windowmove setwindowxy
+		alias setwindowxy windowmove
 	end
 end
