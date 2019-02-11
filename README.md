@@ -67,7 +67,7 @@ Usage:
  
 **Release Mouse Button:**
  
-   `XdoTool.mousebutton(button: 'left', window: n, clearmodifiers: Bool)`
+   `XdoTool.mousedown(button: 'left', window: n, clearmodifiers: Bool)`
 
               {:button => 'left'/'middle'/'right'/'wheel up' or 'scroll up'/'wheel down' or 'scroll down'} will release the given mouse button.
         {:window => n} give the window as Integer. If not given, it will use the active window.
