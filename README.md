@@ -176,4 +176,10 @@ Usage:
 **Get window name along with the cursor position:**
 
    `XdoTool.getwinmousexy`
-    
+ 
+ 
+ Constants:
+  BIN
+  EXEC
+  
+This program requires a GNU/Linux system with xdotool installed.
