@@ -75,11 +75,13 @@ Usage:
 
 **Press a Key:**
 
-   `XdoTool.keypress(repeat: n, delay: n, key: 'a-z/0-9/signs)'`
+   `XdoTool.keypress(repeat: n, delay: n, key: 'a-z/0-9/signs')`
     
       or
       
-   `XdoTool.press(repeat: n, delay: n, key: 'a-z/0-9/signs)'`
+   `XdoTool.press(repeat: n, delay: n, key: 'a-z/0-9/signs')`
+    
+     Note: To send Enter or Return use "\n"
     
 **Type a text:**
 
