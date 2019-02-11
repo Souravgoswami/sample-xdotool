@@ -89,11 +89,11 @@ Usage:
 
 **Hold a key:**
 
-   `XdoTool.keydown(repeat: n, delay: n, clearmodifiers: Bool, key: 'a-z/0-9/signs)'`
+   `XdoTool.keydown(repeat: n, delay: n, clearmodifiers: Bool, key: 'a-z/0-9/signs')`
 
 **Release a key:**
 
-   `XdoTool.keyup(repeat: n, delay: n, clearmodifiers: Bool, key: 'a-z/0-9/signs)'`
+   `XdoTool.keyup(repeat: n, delay: n, clearmodifiers: Bool, key: 'a-z/0-9/signs')`
     
 **Get activewindow:**
 
@@ -124,13 +124,13 @@ Usage:
 
 **Raise a window:**
 
-   `XdoTool.raisewindow(window=n)`
+   `XdoTool.windowraise(window=n)`
 
       If no argument is passed, it will call getactivewindow() and raise the currently active window.
       
 **Select a window:**
 
-   `XdoTool.selectwindow`
+   `puts XdoTool.selectwindow`
   
       This will give you a cursor to select a window.
       
