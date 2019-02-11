@@ -149,6 +149,8 @@ module XdoTool
 		def windowclose(window=getactivewindow) Open3.capture2e("#{EXEC} windowclose #{window}") ; window end
 		def windowraise(window=getactivewindow) Open3.capture2e("#{EXEC} windowraise #{window}") ; window end
 		def selectwindow() Open3.capture2("#{EXEC} selectwindow")[0].to_i end
+		def getwindowfocus() Open3.capture2("#{EXEC} getwindowfocus")[0].to_i end
+		def getwindowname(window=getactivewindow) Open3.capture2("#{EXEC} getwindowname #{window}")[0].strip end
 
 		def windowsize(opt={})
 			window = opt[:window] ? opt[:window] : getactivewindow
